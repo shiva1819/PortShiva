@@ -1,0 +1,53 @@
+
+i.fs18{
+    font-size: 1.7rem !important;
+}
+.sk-1{
+    transform: skewX(-25deg);
+}
+.sk-1-rev{
+    transform: skew(25deg) !important;
+}
+.fs-18{
+    font-size:20px !important; 
+}
+
+@media (max-width: 576px) {
+    .sk-1{
+        transform: skewX(0deg);
+    }
+    .sk-1-rev{
+        transform: skew(0deg) !important;
+    }   
+}
+
+
+
+@media (min-width: 768px) {
+    .sk-1{
+        transform: skewX(0deg);
+    }
+    .sk-1-rev{
+        transform: skew(0deg) !important;
+    }
+}
+
+
+@media (min-width: 992px) { 
+    .sk-1{
+        transform: skewX(-25deg);
+    }
+    .sk-1-rev{
+        transform: skew(25deg) !important;
+    }
+ }
+
+
+@media (min-width: 1200px) { 
+    .sk-1{
+        transform: skewX(-25deg);
+    }
+    .sk-1-rev{
+        transform: skew(25deg) !important;
+    }
+}

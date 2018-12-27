@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* font-family: 'Muli', sans-serif;
+ */
+body{
+    font-family: 'Muli', sans-serif !important;
+}
+
+#HomeSec{
+    background: url(../src/assets/1.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
